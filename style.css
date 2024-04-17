@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300&display=swap');
+
+/**** reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b1121;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main__content {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 75px 25px;
+}
+
+.card {
+    width: 30%;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border: 2px solid #bbbbbb;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card .img__box {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 130px;
+    height: 130px;
+    border: 3px solid #bbbbbb;
+    border-radius: 50%;
+}
+
+.card .img__box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.details {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.post {
+    font-size: 18px;
+    color: #6e77d3;
+    font-weight: 500;
+    margin: 15px 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.star {
+    text-align: center;
+}
+
+.fa-solid {
+    color: #ffc107;
+    font-size: 18px;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.about {
+    color: #cbd5e1;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+footer span {
+    text-align: center;
+    color: #f1f5f9;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
