@@ -6,7 +6,7 @@ Création d'une page Notre Equipe
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/section_notre_equipe/
 
 ## Développez avec
 
