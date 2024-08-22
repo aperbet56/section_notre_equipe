@@ -2,7 +2,7 @@
 
 ## Le challenge
 
-Création d'une page Notre Equipe
+Création d'une page Notre Equipe en HTML5 et CSS3
 
 ## Démonstration
 
@@ -13,7 +13,9 @@ Lien vers le projet : https://aperbet56.github.io/section_notre_equipe/
 - Utilisation des balises sémantiques HTML5
 - CSS3
 - Flexbox
-- Animations CSS
+- Animations CSS (transition, @keyframes)
 - Page web responsive
-- Importation de la police Poppins
+- Desktop first
+- Importation de la police "Poppins"
+- Importation de la police "Nunito Sans"
 - Utilisation d'un normaliseur : le fichier normalize.css
