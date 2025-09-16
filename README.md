@@ -1,8 +1,10 @@
 ## SECTION : NOTRE EQUIPE
 
+![Design preview for the project](./img/banner.png)
+
 ## Le challenge
 
-Création d'une page Notre Equipe en HTML5 et CSS3
+Création d'une page Notre Equipe en HTML5 et CSS3.
 
 ## Démonstration
 
